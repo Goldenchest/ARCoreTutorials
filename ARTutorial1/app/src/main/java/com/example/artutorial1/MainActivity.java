@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void renderRandomURI() {
-        List<RenderableSource.SourceType> types = Arrays.asList(RenderableSource.SourceType.GLTF2,
+        List<RenderableSource.SourceType> types = Arrays.asList(RenderableSource.SourceType.GLB,
                                                                 RenderableSource.SourceType.GLB,
                                                                 RenderableSource.SourceType.GLB);
         List<Float> scales = Arrays.asList(0.1f, 0.05f, 1.f);
